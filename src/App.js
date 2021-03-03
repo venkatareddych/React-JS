@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Welome to React Venkat its yours now.
+          Welome to React Venkat 
         </p>
         <a
           className="App-link"
