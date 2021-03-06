@@ -24,7 +24,7 @@ export default function Movie(props) {     //props used to store the data
         <div className="movie-card">
             <img src={this.props.banner}></img>      
             <label>
-                {this.props.title},{this.props.likes}, {this.props.comments}, {this.props.hero} 
+                {this.props.name},{this.props.likes}, {this.props.comments} 
             </label>
         </div>
     )

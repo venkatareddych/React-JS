@@ -1,9 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Button from './Button';
-import Button2 from './Button2';
-import Movies from './Movie/Movies';
+import MoviesState from './Movie/Movies with State';
+
+
+
+
 
 function App() {
   let hello = <h1>Hello venkat @ React</h1>;
@@ -12,13 +14,8 @@ function App() {
     <div className="App">
       <header className="App-header">React JS</header>
         {hello2}
-        <Button title="Click Here" />
-        <Button title="Click Me" />
-        <Button title="Click On Me" />
-        <Button2/>
-         <p>lorem ipsum dolor sit amet, consectet</p>
-        
-         <Movies/>
+
+       <MoviesState/>
     </div>
   );
 }
