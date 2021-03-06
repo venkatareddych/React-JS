@@ -6,12 +6,26 @@ box-shadow: 0 5px 10px rgb(199, 130, 130);
 border: 2px solid teal;
 border-radius: 10px;
 margin-bottom: 10px;
+margin-left: 30px;
+background-color: #fff;
+margin-top: 10px;
 }
 img{
     max-width: 100%;
+    max-height: 90%;
 }
 label{
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
+}
+.movie-section{
+    background-color:grey;
+    display:flex;
+    justify-content:center;
+    border-radius: 20px;
+    padding: 20px;
+    width: 1200px;
+    margin: auto;
+    
 }
