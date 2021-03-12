@@ -30,7 +30,8 @@ export default class Calculator extends React.Component {
                 <br />
                 {'Div is : ' +(this.div)}
                 <br/>
-                {'Value of A :' +(this.state.a)},{'Value of B :' +(this.state.b)}
+                {'Value of A :' +(this.state.a)},
+                {'Value of B :' +(this.state.b)}
                 <br/>
 
                 <input onChange = {this.setA} />
